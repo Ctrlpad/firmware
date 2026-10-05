@@ -1,10 +1,10 @@
-# ctrlPad firmware
+# Ctrlpad firmware
 
-![GitHub stars](https://img.shields.io/github/stars/ctrlPad/firmware?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/ctrlPad/firmware?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/ctrlPad/firmware?style=for-the-badge&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/ctrlpad/firmware?style=for-the-badge&logo=github) ![GitHub issues](https://img.shields.io/github/issues/ctrlpad/firmware?style=for-the-badge&logo=github) ![Last commit](https://img.shields.io/github/last-commit/ctrlpad/firmware?style=for-the-badge&logo=github)
 
 The firmware of the Ctrlpad is written in PlatformIO.
 
-![ctrlPad demo](demo/demo.gif)
+![ctrlpad demo](demo/demo.gif)
 
 *([Full video](demo/demo.mp4))*
 
@@ -31,7 +31,8 @@ To contribute to this project, please ensure you have [devenv](https://deven.sh)
 
 ```
 # Clone the repository
-git clone https://github.com/CtrlPad/firmware.git
+git clone https://github.com/Ctrlpad/firmware.git
+
 cd firmware
 
 # Enter the development environment
@@ -51,7 +52,7 @@ devenv shell
 ## Contributing
 
 1. **Fork** the repository
-2. **Clone** your fork: `git clone https://github.com/ctrlPad/firmware.git`
+2. **Clone** your fork: `git clone https://github.com/ctrlpad/firmware.git`
 3. **Branch**: `git checkout -b feature/your-feature`
 4. **Commit**: `git commit -m 'feat: add some feature'`
 5. **Push**: `git push origin feature/your-feature`

@@ -38,7 +38,7 @@ class MyCharacteristicCallbacks : public BLECharacteristicCallbacks {
 };
 
 void initBLEKeyboard() {
-  BLEDevice::init("ctrlPad_BLE");      // INit BLE
+  BLEDevice::init("ctrlpad_BLE");      // INit BLE
   pServer = BLEDevice::createServer(); // crete BLE Server
   pServer->setCallbacks(new MyServerCallbacks());
 
